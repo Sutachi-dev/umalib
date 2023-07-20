@@ -1,8 +1,16 @@
 # umapyoiの共通ライブラリ
 
-## logger
+## 使い方
 
-### 使い方
+```bash
+pip install git+https://github.com/k158124456/umalib.git
+```
+
+requirements.txtでも同様
+ほかは知らん
+
+
+## logger
 
 ```python
 import os
@@ -18,8 +26,6 @@ logger.critical("This is a critical message.")
 ```
 
 ## database
-
-### 使い方
 
 ```python
 import os
