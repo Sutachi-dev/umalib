@@ -1,7 +1,12 @@
 from setuptools import setup, find_packages
 
 def requirements_from_file(file_name):
-    return open(file_name).read().splitlines()
+    try:
+        with open(file_name) as f:
+            return f.read().splitlines()
+    except FileNotFoundError:
+        print(f"Error: {file_name} not found.")
+        return []
 
 setup(
     name='umalib',
