@@ -3,12 +3,11 @@
 ## 使い方
 
 ```bash
-pip install git+https://github.com/k158124456/umalib.git
+pip install git+https://github.com/Sutachi-dev/umalib.git
 ```
 
 requirements.txtでも同様
 ほかは知らん
-
 
 ## logger
 

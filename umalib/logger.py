@@ -5,7 +5,7 @@ def getlogger(name: str = __name__, level: str = "DEBUG") -> logging.Logger:
     ロガーを取得する関数
 
     Parameters:
-        name (str, optional): ロガーの名前。デフォルトは__name__（呼び出し元のモジュール名）。
+        name (str, optional): ロガーの名前。デフォルトは__name__（呼び出し元のモジュール名）。\n
         level (str, optional): ログレベルの文字列。"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL" のいずれかを指定できます。デフォルトは"DEBUG"。
 
     Returns:
